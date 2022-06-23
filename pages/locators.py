@@ -14,3 +14,4 @@ class ProductPageLocators():
     BASKET_FORM = (By.CSS_SELECTOR, "#add_to_basket_form")
     PRODUCT_NAME_ADD = (By.XPATH, '//div[2]/div/div[2]/div[2]/article/div[1]/div[2]/h1')
     PRICE_PRODUCT_ADD = (By.XPATH, '//div[2]/div/div[2]/div[2]/article/div[1]/div[2]/p[1]')
+    MESSAGE_SUCCESS = (By.XPATH, '//div[2]/div/div[1]/div[2]/div')
