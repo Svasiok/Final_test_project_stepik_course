@@ -15,3 +15,7 @@ class ProductPageLocators():
     PRODUCT_NAME_ADD = (By.XPATH, '//div[2]/div/div[2]/div[2]/article/div[1]/div[2]/h1')
     PRICE_PRODUCT_ADD = (By.XPATH, '//div[2]/div/div[2]/div[2]/article/div[1]/div[2]/p[1]')
     MESSAGE_SUCCESS = (By.XPATH, '//div[2]/div/div[1]/div[2]/div')
+	
+class BasePageLocators():
+    LOGIN_LINK = (By.CSS_SELECTOR, "#login_link")
+    LOGIN_LINK_INVALID = (By.CSS_SELECTOR, "#login_link_inc")
