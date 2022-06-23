@@ -22,3 +22,11 @@ class ProductPage(BasePage):
          print(price.text)
          assert price.text == price_add.text, 'product price is not same'
          assert True
+		 
+    def should_not_be_message_success(self):
+         assert self.is_not_element_present(*ProductPageLocators.MESSAGE_SUCCESS), 'see massage product add basket'
+         assert True
+		 
+    def should_disappeared_message_success(self):
+         assert self.is_disappeared(*ProductPageLocators.MESSAGE_SUCCESS), 'see massage product add basket'
+         assert True
