@@ -29,4 +29,4 @@ class BasePageLocators():
 	
 class BasketPageLocators():
      BASKET_ITEM = (By.CSS_SELECTOR, "div.basket-items")
-     BASKET_MESSAGE = (By.XPATH, '//div[2]/div/div[3]/div[2]/p/text()')
+     BASKET_MESSAGE = (By.CSS_SELECTOR, '#content_inner')
